@@ -7,8 +7,21 @@
   <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
   <!-- Wide card with share menu button -->
   <style>
+  .page-content {
+    margin-top: 100px;
+    width: 1000px;
+  }
+  .card-slot {
+    margin-left: 100px;
+    padding-top: 50px;
+    margin-bottom: 77px;
+    width:550px;
+    float:left;
+  }
   .card {
-      width: 522px;
+    width: 552px;
+    height:250px;
+
   }
   .card img {
     width: 300px;
@@ -16,19 +29,34 @@
     object-fit: cover;
     float:left;
   }
-  .card-slot {
-    padding-left: 100px;
-    padding-top: 50px;
-  }
   .card-body {
     width: 212px;
     height:200px;
     margin-bottom: 50px;
-    float:right;
     padding-left:10px;
+    float: right;
   }
   .demo-card-wide > .mdl-card__menu {
     color: #fff;
+  }
+  .fun_facts {
+    width:200px;
+    height:500px;
+    margin: 50 50 0 50;
+    border:1px black solid;
+    float:right;
+  }
+  .fun_facts h2 {
+    font-size: 20pt;
+    font-weight: bold;
+    border-bottom:1px black solid;
+    margin:0 0 0 0 ;
+  }
+  .fun_facts div {
+    border-bottom:1px black solid;
+    margin-top: 15px;
+    padding-bottom: 15px;
+    width:200px;
   }
   </style>
 </head>
@@ -65,38 +93,49 @@
         <a class="mdl-navigation__link" href="">Link</a>
       </nav>
     </div>
-    <main class="mdl-layout__content">
-      <div class="page-content">
-        <div class="card-slot">
-          <div class="card">
-            <img src="kittens-cat-cat-puppy-rush-45170.jpeg"/>
-            <div class="card-body">
-              <h3 style = text-align:left>Kittens</h3>
-              <h4 style = text-align:left>Pexels</h4>
-			  <h3 style = text-align:left>Place-holder</h3>
-            </div>
+
+  </div>
+  <main class="mdl-layout__content">
+    <div class="page-content">
+      <div class="card-slot">
+        <div class="card">
+          <img src="art/kittens-cat-cat-puppy-rush-45170.jpeg"/>
+          <div class="card-body">
+            <h3 style = text-align:left>Kittens</h3>
+            <h4 style = text-align:left>Pexels</h4>
+            <h3 style = text-align:left>Place-holder</h3>
           </div>
+        </div>
+
+        <div class="card">
+          <img src="art/guinea-pig-sea-pig-house-cute-guinea-pig-house-63853.jpeg"/>
+          <div class="card-body">
+            <h3 style = text-align:left>Guinea Pigs</h3>
+            <h4 style = text-align:left>Pexels</h4>
+            <h3 style = text-align:left>Place-holder</h3>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="art/pexels-photo-63273.jpeg"/>
+          <div class="card-body">
+            <h3 style = text-align:left>Horses</h3>
+            <h4 style = text-align:left>Pexels</h4>
+            <h3 style = text-align:left>Place-holder</h3>
+          </div>
+        </div>
+
+
       </div>
 
+
+      <div class="fun_facts">
+        <h2>Fun Facts</h2>
+        <div>Cats are cute</div>
+        <div>Dogs don't walk themselves</div>
+      </div>
     </div>
   </main>
-
-    <main class="mdl-layout__content">
-      <div class="page-content">
-        <div class="card-slot">
-          <div class="card">
-            <img src="kittens-cat-cat-puppy-rush-45170.jpeg"/>
-            <div class="card-body">
-              <h3 style = text-align:left>Kittens</h3>
-              <h4 style = text-align:left>Pexels</h4>
-			  <h3 style = text-align:left>Place-holder</h3>
-            </div>
-          </div>
-      </div>
-
-      </div>
-    </main>
-    </div>
 </body>
 
 
